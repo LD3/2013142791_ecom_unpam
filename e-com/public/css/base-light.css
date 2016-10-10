@@ -1,0 +1,75 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #F2e3d5;
+}
+
+#filter_bar{
+	background-color: rgba(160,234,242,.5);
+}
+
+#content{
+	background-color: rgba(160,234,242,0.7);
+}
+
+#wishlist_win{
+	background-color: rgba(32,124,202,0.7);
+}
+
+header{
+	background-color:#05AFF2;
+	border-bottom-color: #207cca;
+}
+
+nav{
+	background-color: #207cca;
+}
+
+#main_menu > *{
+	
+}
+
+#ic_main{
+	background-image: url("/res/image/meobag100x100.png");
+}
+
+#whats_new{
+	border: 0px solid #05AFF2;
+	background-color: #05AFF2;
+}
+
+.barang{
+	background-color: #F2e3d5;
+	border-color: #034C8C;
+}
+
+.barang > .title{
+	color: black;   
+}
+
+.barang > .ket{
+	color: black;
+}
+
+#main_menu > *{
+	color: #F2E3D5;
+}
+
+#main_menu > *:hover{
+	color: #034c8c;
+}
+
+.cari{
+	background: rgba(50,50,50,.1);
+	border-color: 0px solid #dbdbdb;
+}
+
+.caribtn{
+	border-color: #207cca;
+	background-color: #207cca;
+	color: #fafafa;
+}
+
+.barang > .button_add_wish{
+	background-color:#05AFF2;
+}

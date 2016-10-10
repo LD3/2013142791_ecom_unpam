@@ -1,0 +1,228 @@
+@CHARSET "UTF-8";
+
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 800px;
+}
+
+header{
+	z-index: 9;
+	width: 800px;
+	max-width: 800px;
+	height: 100px;
+	text-align:right;
+	top: 0px;
+	position: fixed;
+	border-bottom: medium;
+	border-bottom-style: double;
+	border-bottom-width: thick;
+}
+
+nav{
+	z-index: 9;
+	width: 800px;
+	max-width: 800px;
+	height: 50px;
+	top: 100px;
+	margin-left: 200px;
+	position: fixed;
+	width: 600px;
+}
+
+#wishlist{
+	background-image: url("/res/image/ic_shopping_cart_white.png");
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	right: 0px;
+	cursor: pointer;
+}
+
+#num_wish{
+	cursor: pointer;
+	background-color: #FF0000;
+	position: absolute;
+	text-align: center;
+	font-weight: bolder;
+	font-size: x-small;
+	color: #FFFFFF;
+	top: 0;
+	right: 0;
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 1em;
+}
+
+#wishlist_win{
+	visibility: hidden;
+	width: 300px;
+	height: 100px;
+	top: 150px;
+	border-radius: 10px;
+	margin-left: 500px;
+	position: fixed;
+	overflow: auto;
+	-webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+
+section{
+	width: 100%;
+	height: 600px;
+}
+
+#main_menu{
+	position: absolute;
+	top: -.1em;
+	left: -.2em;
+	list-style-type: none;
+}
+
+#main_menu > *{
+	float: left;
+	cursor: pointer;
+	width: 3em;
+	text-decoration: none;	
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#ic_main{
+	position: fixed;
+	margin-top: 50px;
+	z-index: 10;
+	top: 0px;
+	margin-left: 100px;
+	width: 100px;
+	height: 100px;
+}
+
+#filter_bar{
+	top: 0px;
+	bottom:0px;
+	z-index: 0;
+	position: fixed;
+	padding-top: 150px;
+	width: 200px;
+	overflow: auto;
+}
+
+#content{
+	height:100%;
+	margin-left: 200px;
+	width: 600px;
+	border-width: thin;
+	border-color: black;
+	padding-top: 150px;
+	overflow: auto;
+}
+
+#whats_new{
+	float:left;
+	height: 200px;
+	border: 0px solid;
+	border-radius: 10px;
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+#main_content{
+	float: left;
+	width: 100%;
+}
+
+.barang{
+	position: relative;
+	float: left;
+	width: 120px;
+	height: 180px;
+	margin: 10px 5px;
+	border: 0px solid;
+	border-radius: 5px;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.barang:hover{
+	z-index: 99;
+	-webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.barang > img{
+	width: 120px;
+	height: 120px;
+}
+
+.barang > .title{
+	font-size: small;
+	font-weight: bold;
+	color: black;
+}
+
+.barang > .ket{
+	font-size: small;
+	font-style: italic;
+	color: black;
+}
+
+.barang > .button_beli{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2em;
+	font-size: x-small;
+	font-weight: bolder;
+	text-align: center;
+	cursor: pointer;
+}
+
+.barang > .button_add_wish{
+	cursor: pointer;
+	width: 30px;
+	height: 30px; 
+	border-radius: 50%;
+	right: 0px;
+	top: 90px;
+	border: 2px outset;
+	position: absolute;
+	background-color: red;
+}
+
+.barang > .button_add_wish > img{
+	margin: 3px;
+}
+
+.barang > .button_add_wish:ACTIVE{
+	border: 2px inset;
+}
+
+.cari{
+	padding: 8px 4px;
+	margin-left: 5px;
+	border: 0px solid;
+}
+
+.caribtn{
+	position: relative;
+	padding: 5px 4px;
+	margin-left:-10px;
+	border: 2px solid;
+	cursor: pointer;
+}
